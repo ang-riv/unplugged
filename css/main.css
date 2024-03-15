@@ -87,6 +87,267 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* ---------- Base Header - Footer Styles ------------ */
+
+header{
+  display: flex;
+  justify-content: center;
+}
+
+header .content-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.header-divider{
+
+}
+
+header nav {
+
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav ul li {
+
+}
+
+header nav ul li a {
+
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+footer .content-wrapper {
+
+}
+
+.footer-contact {
+  display:  flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  display:  flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer h4 {
+
+}
+
+footer address {
+
+}
+
+.social {
+
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .social p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright {
+
+}
+
+/**********  Homepage Styles *********/
+.hero-area{
+  display: flex;
+}
+
+/*** Aside Styles ***/
+aside {
+  display: flex;
+  justify-content: center;
+}
+
+.newsletter-signup {
+
+}
+
+.newsletter-signup .content-wrapper {
+
+}
+
+.form-description {
+
+}
+
+aside h3 {
+
+}
+
+aside form {
+
+}
+
+/**? break up into two types*/
+input {
+
+}
+
+/*** Feature Section Styles ***/
+.features{
+  display: flex;
+  justify-content: center;
+}
+
+.features .content-wrapper {
+  
+}
+
+.features h2 {
+
+}
+
+.features .features-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-flow: row wrap;
+
+
+}
+
+.features article {
+
+}
+
+article .fontawesome-icon{ 
+
+}
+
+article .features-item-description {
+
+}
+
+/*** Review Section Styles ***/
+.reviews {
+  display: flex;
+  justify-content: center;
+}
+
+.reviews .content-wrapper {
+
+}
+
+.reviews h2 {
+
+}
+
+.reviews article {
+
+}
+
+.reviews h3 {
+
+}
+
+/********* About Page Styles *********/
+
+/*** Mission Section Styles ***/
+.mission {
+  display: flex;
+  justify-content: center;
+}
+
+.mission .content-wrapper {
+
+}
+
+.mission-content {
+
+}
+
+.mission h2 {
+
+}
+
+/*** Map Section Styles ***/
+.map {
+
+}
+
+.map figure {
+
+}
+
+/*** Contact Section Styles ***/
+.contact-section{
+  display: flex;
+  justify-content: center;
+}
+
+.contact-section .content-wrapper {
+
+}
+
+.contact-section h2 {
+
+}
+
+.contact-content {
+
+}
+
+.general-info {
+
+}
+
+.facilitator-info {
+
+}
+
+
+
+/******** FAQ Page Styles ***********/
+.faq .content-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.faq h2 {
+
+}
+
+.faq-content {
+
+}
+
+.faq-content h4 {
+
+}
+
+
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
