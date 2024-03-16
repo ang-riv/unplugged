@@ -102,6 +102,8 @@ body {
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -174,6 +176,9 @@ header .content-wrapper {
 
 header nav {
   width: 60%;
+  font-size: 1.125em;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 header nav ul {
@@ -184,8 +189,6 @@ header nav ul {
 
 header nav ul li {
   font-size: 1.125;
-  font-weight: bold;
-  text-transform: uppercase;
 }
 
 footer {
@@ -228,7 +231,7 @@ footer .social-icons {
   align-items: center;
 }
 
-footer .social p {
+footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -247,6 +250,7 @@ footer .copyright {
 .hero-area h1 {
   font-size: 2.25em;
   line-height: 2.688em;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
   font-weight: 500;
 }
 
@@ -265,10 +269,6 @@ aside .form {
   display: flex;
   justify-content: center;
   background-color: #527158;
-}
-
-
-.form-description {
 }
 
 .form-description h3,
@@ -312,7 +312,6 @@ input[type="button"] {
 }
 
 .features h2 {
-  margin: 0;
   margin-bottom: 60px;
 }
 
@@ -326,7 +325,7 @@ input[type="button"] {
 
 .features article {
   width: 63%;
-  margin: 30px;
+  margin: 30px 0;
 }
 
 .features p {
@@ -372,16 +371,6 @@ article .features-item-description {
   justify-content: center;
 }
 
-.contact-section {
-  display: flex;
-  justify-content: center;
-  background-color: #2a423a;
-}
-
-.contact-content p {
-  margin: 0;
-}
-
 /*** Map Section Styles ***/
 .map {
 }
@@ -394,12 +383,7 @@ article .features-item-description {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-}
-
-.contact-section .content-wrapper {
-}
-
-.contact-section h2 {
+  background-color: #2a423a;
 }
 
 .contact-content p {
@@ -429,7 +413,7 @@ article .features-item-description {
 
 .faq h2 {
   margin-bottom: 40px;
-  line-height: 30px;
+  line-height: 1.875em;
 }
 
 .faq-content {
