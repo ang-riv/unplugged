@@ -367,13 +367,15 @@ article .features-item-description {
 
 /*** Mission Section Styles ***/
 .mission {
+  background-color: #527158;
   display: flex;
   justify-content: center;
 }
 
-.contract-section {
+.contact-section {
   display: flex;
   justify-content: center;
+  background-color: #2a423a;
 }
 
 .contact-content p {
@@ -391,6 +393,7 @@ article .features-item-description {
 .contact-section {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .contact-section .content-wrapper {
@@ -413,6 +416,7 @@ article .features-item-description {
 .faq {
   display: flex;
   justify-content: center;
+  background-color: #527158;
 }
 
 .faq .content-wrapper {
@@ -612,6 +616,7 @@ article .features-item-description {
   }
 
   /*** about page ***/
+
   .mission-content {
     display: flex;
     justify-content: space-between;
