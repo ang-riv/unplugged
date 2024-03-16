@@ -96,6 +96,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
   text-align: left;
+  color: #e2e3ed;
 }
 
 ul,
@@ -111,12 +112,14 @@ a {
 h2 {
   font-family: "Poppins", sans-serif;
   font-size: 1.875em;
+  font-weight: 500;
 }
 
 h3,
 h4 {
   font-family: "Poppins", sans-serif;
   font-size: 1.125em;
+  font-weight: 500;
   margin: 20px 0;
 }
 
@@ -151,6 +154,7 @@ header {
   display: flex;
   justify-content: center;
   padding: 15px 0;
+  background-color: #202322;
 }
 
 header .content-wrapper {
@@ -165,6 +169,7 @@ header .content-wrapper {
   width: 100%;
   height: 1px;
   margin: 10px 0 20px 0;
+  background-color: #3a3a3a;
 }
 
 header nav {
@@ -178,9 +183,9 @@ header nav ul {
 }
 
 header nav ul li {
-}
-
-header nav ul li a {
+  font-size: 1.125;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 footer {
@@ -188,6 +193,7 @@ footer {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  background-color: #202322;
 }
 
 footer .content-wrapper {
@@ -238,18 +244,29 @@ footer .copyright {
   justify-content: center;
 }
 
+.hero-area h1 {
+  font-size: 2.25em;
+  line-height: 2.688em;
+  font-weight: 500;
+}
+
 /*** Aside Styles ***/
 aside {
   display: flex;
   justify-content: center;
 }
 
-.newsletter-signup {
-  margin: 50px 0;
+aside .form {
+  margin-top: 30px;
 }
 
-.newsletter-signup .content-wrapper {
+.newsletter-signup {
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  background-color: #527158;
 }
+
 
 .form-description {
 }
@@ -264,12 +281,28 @@ aside {
 }
 
 input[type="text"] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
   padding: 1em;
   margin-bottom: 20px;
+  font-size: 1.125em;
+  font-weight: 500;
 }
 
 input[type="button"] {
+  width: 100%;
   padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e2ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /*** Feature Section Styles ***/
@@ -302,6 +335,7 @@ input[type="button"] {
 
 article .fontawesome-icon {
   padding: 30px 0 40px 0;
+  font-size: 3.75;
 }
 
 article .features-item-description {
@@ -312,10 +346,12 @@ article .features-item-description {
 .reviews {
   display: flex;
   justify-content: center;
+  background-color: #2a423a;
 }
 
 .reviews h2 {
   margin-bottom: 40px;
+  line-height: 1.875em;
 }
 
 .reviews article h3 {
@@ -389,6 +425,7 @@ article .features-item-description {
 
 .faq h2 {
   margin-bottom: 40px;
+  line-height: 30px;
 }
 
 .faq-content {
@@ -396,6 +433,7 @@ article .features-item-description {
 }
 
 .faq-content h4 {
+  line-height: 1.5em;
 }
 
 /* ==========================================================================
