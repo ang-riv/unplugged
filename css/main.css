@@ -88,10 +88,15 @@ textarea {
    ========================================================================== */
 
 /* ---------- Base Header - Footer Styles ------------ */
+.content-wrapper{
+  width: 90%;
+  margin: 50px 0;
+}
 
 header{
   display: flex;
   justify-content: center;
+  padding: 15px 0;
 }
 
 header .content-wrapper{
@@ -99,19 +104,23 @@ header .content-wrapper{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
 }
 
 .header-divider{
-
+  width: 100%;
+  height: 1px;
+  margin: 10px 0 20px 0;
 }
 
 header nav {
-
+  width: 60%;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
+  width: 100%;
 }
 
 header nav ul li {
@@ -130,7 +139,7 @@ footer{
 }
 
 footer .content-wrapper {
-
+  width: 55%;
 }
 
 .footer-contact {
@@ -139,22 +148,20 @@ footer .content-wrapper {
   align-items: center;
 }
 
-.contact {
-  display:  flex;
-  justify-content: center;
-  align-items: center;
+footer .contact {
+  margin-bottom: 50px;
 }
 
 footer h4 {
-
+  padding: 20px 0;
 }
 
-footer address {
-
+footer p {
+  margin: 0;
 }
 
-.social {
-
+footer address p{
+  padding-bottom: 50px;
 }
 
 footer .social-icons {
@@ -170,12 +177,13 @@ footer .social p {
 }
 
 .copyright {
-
+  margin: 20px 0;
 }
 
 /**********  Homepage Styles *********/
 .hero-area{
   display: flex;
+  justify-content: center;
 }
 
 /*** Aside Styles ***/
@@ -185,7 +193,7 @@ aside {
 }
 
 .newsletter-signup {
-
+  margin: 50px 0;
 }
 
 .newsletter-signup .content-wrapper {
@@ -196,17 +204,22 @@ aside {
 
 }
 
-aside h3 {
-
+.form-description h3,
+.form h3 {
+  padding: 20px 0;
 }
 
-aside form {
-
+.form-description p {
+  padding-bottom: 30px;
 }
 
-/**? break up into two types*/
-input {
+input[type=text]{
+  padding: 1em;
+  margin-bottom: 20px;
+}
 
+input[type=button]{
+  padding: 20px 0;
 }
 
 /*** Feature Section Styles ***/
@@ -215,18 +228,15 @@ input {
   justify-content: center;
 }
 
-.features .content-wrapper {
-  
-}
-
 .features h2 {
-
+  margin: 0;
+  margin-bottom: 60px;
 }
 
 .features .features-items {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   text-align: center;
   flex-flow: row wrap;
 
@@ -234,15 +244,20 @@ input {
 }
 
 .features article {
+  width: 63%;
+  margin: 30px;
+}
 
+.features p {
+  margin: 0;
 }
 
 article .fontawesome-icon{ 
-
+  padding: 30px 0 40px 0;
 }
 
 article .features-item-description {
-
+  padding: 30px 0;
 }
 
 /*** Review Section Styles ***/
@@ -251,20 +266,17 @@ article .features-item-description {
   justify-content: center;
 }
 
-.reviews .content-wrapper {
-
-}
-
 .reviews h2 {
-
+  margin-bottom: 40px;
 }
 
-.reviews article {
-
+.reviews article h3 {
+  padding: 20px 0;
 }
 
 .reviews h3 {
-
+  width: 55%;
+  margin: 20px 0;
 }
 
 /********* About Page Styles *********/
@@ -275,16 +287,13 @@ article .features-item-description {
   justify-content: center;
 }
 
-.mission .content-wrapper {
-
+.contract-section{
+  display: flex;
+  justify-content: center;
 }
 
-.mission-content {
-
-}
-
-.mission h2 {
-
+.contact-content p {
+  margin: 0;
 }
 
 /*** Map Section Styles ***/
@@ -310,8 +319,8 @@ article .features-item-description {
 
 }
 
-.contact-content {
-
+.contact-content p{
+  margin: 0;
 }
 
 .general-info {
@@ -325,18 +334,25 @@ article .features-item-description {
 
 
 /******** FAQ Page Styles ***********/
+.faq{
+  display: flex;
+  justify-content: center;
+}
+
 .faq .content-wrapper {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
   flex-flow: row wrap;
+  margin: 50px 0 0 0;
 }
 
 .faq h2 {
-
+  margin-bottom: 40px;
 }
 
 .faq-content {
-
+  margin-bottom: 50px;
 }
 
 .faq-content h4 {
