@@ -436,7 +436,7 @@ article .features-item-description {
 }
 
 .faq h2 {
-  margin-bottom: 40px;
+  margin: 0 0 40px 0;
   line-height: 30px;
 }
 
