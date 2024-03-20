@@ -249,7 +249,7 @@ footer .social-icons p i {
   font-size: 1.313em;
 }
 
-footer .copyright {
+footer .copyright p{
   margin: 20px 0;
 }
 
@@ -375,10 +375,6 @@ article .features-item-description {
 .reviews h2 {
   margin-bottom: 40px;
   line-height: 30px;
-}
-
-.reviews article h3 {
-  padding: 20px 0;
 }
 
 .reviews h3 {
