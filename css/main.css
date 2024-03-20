@@ -700,10 +700,8 @@ article .features-item-description {
     width: 45%;
   }
 
-  .map,
-  .map figure,
-  .map iframe {
-    max-height: 350px;
+  .map figure {
+    padding-bottom: 45.5%;
   }
 
   .contact-section .content-wrapper h2 {
@@ -817,10 +815,8 @@ article .features-item-description {
     font-size: 3em;
   }
 
-  .map,
-  .map figure,
-  .map iframe {
-    max-height: 450px;
+  .map figure {
+    padding-bottom: 37.5%;
   }
 
   .contact-content h4 {
