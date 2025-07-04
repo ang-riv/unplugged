@@ -231,7 +231,7 @@ footer .contact {
   margin-bottom: 50px;
 }
 
-footer h4 {
+footer h3 {
   padding: 20px 0;
   margin: 0;
 }
@@ -682,7 +682,7 @@ article .features-item-description {
     width: 100%;
   }
 
-  footer h4 {
+  footer h3 {
     font-size: 1.5em;
     margin-bottom: 40px;
     padding: 0;
@@ -814,7 +814,7 @@ article .features-item-description {
     width: 42%;
   }
 
-  footer h4 {
+  footer h3 {
     font-size: 1.875em;
   }
 
