@@ -247,7 +247,7 @@ footer .social-icons {
 }
 
 footer .social-icons p {
-  background-color: #527158;
+  background-color: #384d3d;
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -285,7 +285,7 @@ footer .copyright p {
 aside {
   display: flex;
   justify-content: center;
-  background-color: #527158;
+  background-color: #384d3d;
 }
 
 aside .form {
@@ -398,7 +398,7 @@ article .features-item-description {
 
 /********** Mission Section Styles **********/
 .mission {
-  background-color: #527158;
+  background-color: #384d3d;
   display: flex;
   justify-content: center;
 }
@@ -436,7 +436,7 @@ article .features-item-description {
 .faq {
   display: flex;
   justify-content: center;
-  background-color: #527158;
+  background-color: #384d3d;
 }
 
 .faq .content-wrapper {
